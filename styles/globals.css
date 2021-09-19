@@ -1,16 +1,135 @@
-html,
-body {
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+/************** Custom Properties ***************/
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #cacaca;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a0a0a0;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #888;
+}
+
+:root {
+  --first-color: #a0ac5b;
+  --first-alpha-color: #c8cfa0bf;
+  --second-color: #363630;
+  --second-alpha-color: #616156bf;
+  --third-color: #60695f;
+  --third-alpha-color: #8a9489bf;
+
+  --white-color: #ffffff;
+  --gray-light-color: #f3f3f3;
+  --gray-color: #cccccc;
+  --gray-dark-color: #666666;
+  --dark-color: #000000;
+
+  --link-color: #076fca;
+  --title-color: #333333;
+  --text-color: #222222;
+
+  --white-alpha-color: #ffffff80;
+  --black-alpha-color: #00000080;
+  --drop-shadow: #ffffff80;
+
+  --font: 'Poppins', sans-serif;
+  --max-width: 1200px;
+  --header-height: 4rem;
+}
+
+/************** Reset ***************/
+
+html {
+  box-sizing: border-box;
+  font-family: var(--font);
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  color: var(--text-color);
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+  color: var(--link-color);
+  transition: all 0.5s ease-out;
 }
 
-* {
-  box-sizing: border-box;
+a:hover {
+  opacity: 0.75;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font);
+  font-weight: 600;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: 0.85rem;
+}
+
+h6 {
+  font-size: 0.7rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  font-family: var(--font);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+#app {
+  background-color: #fff;
 }
