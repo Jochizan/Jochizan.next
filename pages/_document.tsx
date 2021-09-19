@@ -13,7 +13,6 @@ class DocJochizan extends Document {
           <link rel='canonical' href='%PUBLIC_URL%' />
           <link rel='icon' href='%PUBLIC_URL%/favicon/favicon.ico' />
           <link rel='favicon' href='%PUBLIC_URL%/favicon/' />
-          <meta name='viewport' content='width=device-width, initial-scale=1' />
           <meta name='twitter:card' content='summary' />
           <meta property='og:title' name='twitter:title' content='Jochizan' />
           <meta
