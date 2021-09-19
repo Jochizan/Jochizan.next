@@ -579,7 +579,7 @@
 
   .about {
     display: grid;
-    grid-template: 100px repeat(2, 24%) repeat(1, 1fr) / repeat(3, 33%);
+    grid-template: 100px repeat(2, 24%) 320px / repeat(3, 33%);
     justify-content: space-between;
     align-content: center;
     grid-template-areas:

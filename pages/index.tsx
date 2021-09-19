@@ -7,7 +7,7 @@ import Services from 'views/Services';
 
 const HomePage: NextPage = () => {
   return (
-    <div className='flex-grow'>
+    <div className='flex-grow bg-white'>
       <Home />
       <About />
       <Services />

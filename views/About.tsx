@@ -15,25 +15,11 @@ import docker from 'assets/icons/docker.svg';
 import mysql from 'assets/icons/mysql.svg';
 import mongo from 'assets/icons/mongodb.svg';
 import Image from 'next/image';
-
-interface Skill {
-  name: string;
-  value: number;
-}
-
 interface Tech {
   name: string;
   image: string;
   href: string;
 }
-
-const skills: Skill[] = [
-  { name: 'Desarrollo <i>Web Frontend</i>', value: 75 },
-  { name: '<i>Diseño Web</i>', value: 60 },
-  { name: 'Desarrollo <i>Web Backend</i>', value: 70 },
-  { name: '<i>WPO & SEO</i>', value: 75 },
-  { name: 'Herramientas de desarrollo', value: 80 }
-];
 
 const techs: Tech[] = [
   { name: 'Html', image: html, href: 'https://www.w3.org/html' },
@@ -59,7 +45,7 @@ const techs: Tech[] = [
 const About = () => {
   return (
     <section id='acerca' className='about section container lg:h-screen'>
-      <article className='title-grid pt-16'>
+      <article className='title-grid'>
         <h1>Jochizan</h1>
         <h5>Desarrollador FullStack</h5>
       </article>

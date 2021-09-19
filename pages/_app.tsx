@@ -5,10 +5,10 @@ import type { AppProps } from 'next/app';
 
 const Jochizan = ({ Component, pageProps }: AppProps) => {
   return (
-    <div className='flex flex-col h-screen'>
+    <>
       <Component {...pageProps} />
       <Footer />
-    </div>
+    </>
   );
 };
 
