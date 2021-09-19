@@ -133,3 +133,7 @@ p {
 #app {
   background-color: #fff;
 }
+
+[id] {
+  scroll-margin-top: 2rem;
+}
