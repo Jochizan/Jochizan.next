@@ -9,7 +9,7 @@ import python from 'assets/icons/python.svg';
 import react from 'assets/icons/react.svg';
 import express from 'assets/icons/express.svg';
 import vue from 'assets/icons/vue.svg';
-import bootstrap from 'assets/icons/bootstrap.svg';
+import next from 'assets/icons/next.svg';
 import tf from 'assets/icons/tensorflow.svg';
 import docker from 'assets/icons/docker.svg';
 import mysql from 'assets/icons/mysql.svg';
@@ -33,7 +33,7 @@ const techs: Tech[] = [
   { name: 'React.js', image: react, href: 'https://es.reactjs.org' },
   { name: 'Express.js', image: express, href: 'https://expressjs.com' },
   { name: 'Vue.js', image: vue, href: 'https://vuejs.org' },
-  { name: 'Bootstrap', image: bootstrap, href: 'https://getbootstrap.com' },
+  { name: 'Next.js', image: next, href: 'https://nextjs.org' },
   { name: 'Python', image: python, href: 'https://www.python.org' },
   { name: 'Tensorflow', image: tf, href: 'https://www.tensorflow.org' },
   { name: 'Docker', image: docker, href: 'https://www.docker.com' },

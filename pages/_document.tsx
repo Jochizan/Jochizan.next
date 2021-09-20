@@ -5,32 +5,10 @@ class DocJochizan extends Document {
     return (
       <Html lang='es'>
         <Head>
-          <meta
-            name='description'
-            content='Hola! 👋👋👋 bienvenid@ a mi Portafolio profesional soy Jochizan y soy desarrollador de software para la web'
-          />
           <meta name='theme-color' content='#A0AC5B' />
           <link rel='canonical' href='https://www.jochizan.me' />
           <link rel='icon' href='favicon.ico' />
           <link rel='favicon' href='favicon/' />
-          <meta name='twitter:card' content='summary' />
-          <meta property='og:title' name='twitter:title' content='Jochizan' />
-          <meta
-            property='og:image'
-            name='twitter:image'
-            content='hero-image.png'
-          />
-          <meta
-            property='og:url'
-            name='twitter:url'
-            content='https://www.jochizan.me'
-          />
-          <meta
-            property='og:description'
-            name='twitter:description'
-            content='Hola! 👋👋👋 bienvenid@ a mi Portafolio profesional soy Jochizan y soy desarrollador de software para la web'
-          />
-          <meta property='og:type' content='website' />
           <link rel='apple-touch-icon' href='favicon/apple-icon.png' />
           <link rel='manifest' href='manifest.json' />
           <meta name='msapplication-TileColor' content='#A0AC5B' />
