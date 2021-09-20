@@ -354,6 +354,10 @@
   background-color: var(--white-color);
 }
 
+.text-1rem {
+  font-size: 1rem;
+}
+
 .modal-container {
   overflow: auto;
 }
