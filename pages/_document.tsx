@@ -28,7 +28,7 @@ class DocJochizan extends Document {
           <meta
             property='og:description'
             name='twitter:description'
-            content='Hola! 👋👋👋 bienvenid@ a mi Portafolio Profesional, soy Jochizan y soy Desarrollador Web'
+            content='Hola! 👋👋👋 bienvenid@ a mi Portafolio profesional soy Jochizan y soy desarrollador de software para la web'
           />
           <meta property='og:type' content='website' />
           <link rel='apple-touch-icon' href='favicon/apple-icon.png' />
