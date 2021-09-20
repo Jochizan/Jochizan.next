@@ -31,9 +31,9 @@ const techs: Tech[] = [
   { name: 'JavaScript', image: js, href: 'https://www.javascript.com' },
   { name: 'TypeScript', image: ts, href: 'https://www.typescriptlang.org' },
   { name: 'React.js', image: react, href: 'https://es.reactjs.org' },
-  { name: 'Express.js', image: express, href: 'https://expressjs.com' },
   { name: 'Vue.js', image: vue, href: 'https://vuejs.org' },
   { name: 'Next.js', image: next, href: 'https://nextjs.org' },
+  { name: 'Express.js', image: express, href: 'https://expressjs.com' },
   { name: 'Python', image: python, href: 'https://www.python.org' },
   { name: 'Tensorflow', image: tf, href: 'https://www.tensorflow.org' },
   { name: 'Docker', image: docker, href: 'https://www.docker.com' },
@@ -44,7 +44,7 @@ const techs: Tech[] = [
 
 const About = () => {
   return (
-    <section id='acerca' className='about section container lg-screen-full'>
+    <section id='acerca' className='about section container lg-screen-full pb-5'>
       <article className='title-grid'>
         <h1>Jochizan</h1>
         <h5>Desarrollador FullStack</h5>
