@@ -44,7 +44,10 @@ const techs: Tech[] = [
 
 const About = () => {
   return (
-    <section id='acerca' className='about section container lg-screen-full pb-5'>
+    <section
+      id='acerca'
+      className='about section container lg-screen-full pb-5'
+    >
       <article className='title-grid'>
         <h1>Jochizan</h1>
         <h5>Desarrollador FullStack</h5>
@@ -53,15 +56,14 @@ const About = () => {
         <aside className='text-center text-lg-left pb-2'>
           <br />
           <p>
-            Hola mi nombre es Joan, tengo la edad 20 años y voy en el tercer año
-            de la carrera de Ingeniería. de Sistemas en la UNCP.
+            Hola mi nombre es Joan Roca Hormaza y soy fanático, amante y
+            seguidor de tecnologías para el desarrollo de software especializado
+            en la web, y ahora estoy enfocado en el mantenimiento de servicios
+            sencillos de la organización <i>Tiquor</i> para la implementación de
+            aplicaciones <i>open-source</i> de todo tipo.
           </p>
           <br />
-          <p>
-            Colaboro con proyectos como <i>Freelance FullStack</i>. Me oriento
-            bien en el trabajo en equipo a través de <i>Trello </i> o{' '}
-            <i>Jira</i>.
-          </p>
+
           <br />
           <p>
             Mi especialidad es hacer la maquetación de un sitio <i>web</i>, así

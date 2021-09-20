@@ -9,7 +9,7 @@ import Services from 'views/Services';
 const HomePage: NextPage = () => {
   return (
     <div className='flex-grow bg-white'>
-      <Meta title='jochizan' />
+      <Meta title='Jochizan' />
       <Home />
       <About />
       <Services />

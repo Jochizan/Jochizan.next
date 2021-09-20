@@ -24,20 +24,20 @@ const services: ServiceItem[] = [
     img: ImgServiceTwo,
     name: 'Diseño Web',
     description:
-      'Maqueto tus diseños estáticos y les proveo de una interfaz para tus aplicaciones y sitios <i>web</i>.' +
-      'Óptimo, responsivo y accesible.'
+      'Maqueto tus diseños estáticos y les proveo de una interfaz para tus aplicaciones y sitios <i>web</i>. ' +
+      'Siendo óptimos, responsivos y accesibles.'
   },
   {
     img: ImgServiceThree,
     name: 'WPO',
     description:
-      'Hago que tus sitios y aplicaciones <i>web</i> mejoren su tiempo de carga y respuesta.'
+      'Hago que tus sitios y aplicaciones <i>web</i> mejoren sus tiempos de carga y respuesta.'
   },
   {
     img: ImgServiceFour,
     name: 'SEO',
     description:
-      'Hago que tus sitios y aplicaciones <i>web</i> mejoren su posición en los buscadores orgánicamente.'
+      'Mejoren la posición de tus sitios y aplicaciones <i>web</i> en los buscadores orgánicamente.'
   },
   {
     img: ImgServiceFive,
@@ -48,7 +48,8 @@ const services: ServiceItem[] = [
   {
     img: ImgServiceSix,
     name: 'Web Hosting',
-    description: 'Te proveo de un dominio y <i>host</i> para tus proyectos.'
+    description:
+      'Te proveo de un dominio y <i>host</i> para tus proyectos en la <i>web</i> .'
   }
 ];
 
