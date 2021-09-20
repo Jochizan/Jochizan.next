@@ -4,12 +4,7 @@ import Footer from 'layouts/Footer';
 import type { AppProps } from 'next/app';
 
 const Jochizan = ({ Component, pageProps }: AppProps) => {
-  return (
-    <>
-      <Component {...pageProps} />
-      <Footer />
-    </>
-  );
+  return <Component {...pageProps} />;
 };
 
 export default Jochizan;
