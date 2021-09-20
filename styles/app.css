@@ -185,6 +185,11 @@
   color: var(--title-color);
 }
 
+.lg-screen-full {
+  width: 100%;
+  min-height: 100vh;
+}
+
 .text-first-color {
   color: var(--first-color);
 }

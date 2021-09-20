@@ -44,7 +44,7 @@ const techs: Tech[] = [
 
 const About = () => {
   return (
-    <section id='acerca' className='about section container lg:h-screen'>
+    <section id='acerca' className='about section container lg-screen-full'>
       <article className='title-grid'>
         <h1>Jochizan</h1>
         <h5>Desarrollador FullStack</h5>
