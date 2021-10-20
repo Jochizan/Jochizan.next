@@ -5,7 +5,7 @@ export const SEO = {
     'Hola! 👋👋👋 bienvenid@ a mi Portafolio profesional soy Jochizan y soy desarrollador de software para la web 😎',
   openGraph: {
     type: 'website',
-    url: 'https://www.jochizan.me',
+    url: 'https://jochizan.me',
     description:
       'Hola! 👋👋👋 bienvenid@ a mi Portafolio profesional soy Jochizan y soy desarrollador de software para la web 😎',
     image: heroImage
