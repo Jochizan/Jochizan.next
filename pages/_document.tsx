@@ -6,7 +6,7 @@ class DocJochizan extends Document {
       <Html lang='es'>
         <Head>
           <meta name='theme-color' content='#A0AC5B' />
-          <link rel='canonical' href='https://www.jochizan.me' />
+          <link rel='canonical' href='https://jochizan.me' />
           <link rel='icon' href='favicon.ico' />
           <link rel='favicon' href='favicon/' />
           <link rel='apple-touch-icon' href='favicon/apple-icon.png' />
