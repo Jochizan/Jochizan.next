@@ -1,6 +1,11 @@
-import Job0 from '../assets/projects/plant-ds.png';
-import Job1 from '../assets/projects/graph-dijkstra.png';
-import Job2 from '../assets/projects/bicimex.png';
+import Job0 from '../assets/projects/semana3.png';
+import Job1 from '../assets/projects/semana4.png';
+import Job2 from '../assets/projects/semana5.png';
+import Job3 from '../assets/projects/semana6.png';
+import Job4 from '../assets/projects/semana7.png';
+import Job5 from '../assets/projects/plant-ds.png';
+import Job6 from '../assets/projects/graph-dijkstra.png';
+import Job7 from '../assets/projects/bicimex.png';
 
 import Job from '../components/Job';
 import { SyntheticEvent, useRef, useState } from 'react';
@@ -18,6 +23,51 @@ interface JobItem {
 const jobs: JobItem[] = [
   {
     source: Job0,
+    href: 'https://jochizan.github.io/ix-web/semana3/',
+    name: 'Semana 3 de Desarrollo Aplicaciones Web',
+    client: 'Ing. Suasnabar',
+    date: '18/04/23',
+    description:
+      'Se realizaron pruebas con emmet para la creación de la estructura de varios ejercicios propuestos.'
+  },
+  {
+    source: Job1,
+    href: 'https://jochizan.github.io/ix-web/semana4/',
+    name: 'Semana 4 de Desarrollo Aplicaciones Web',
+    client: 'Ing. Suasnabar',
+    date: '25/04/23',
+    description:
+      'Pequeño proyecto para implementar una página con bootstrap y un poco de js para la interacción con el usuario.'
+  },
+  {
+    source: Job2,
+    href: 'https://jochizan.github.io/ix-web/semana5/',
+    name: 'Semana 5 de Desarrollo Aplicaciones Web',
+    client: 'Ing. Suasnabar',
+    date: '01/05/23',
+    description:
+      'Proyecto para implementar el recorrido en canvas de una pelota que tiene botones de pausa, play, reverse y reset.'
+  },
+  {
+    source: Job3,
+    href: 'https://jochizan.github.io/ix-web/semana6/',
+    name: 'Semana 6 de Desarrollo Aplicaciones Web',
+    client: 'Ing. Suasnabar',
+    date: '08/05/23',
+    description:
+      'Uso de JSON y AJAX para la creación de una página que muestra los datos de un JSON en una tabla sobre el tema a elección.'
+  },
+  {
+    source: Job4,
+    href: 'https://jochizan.github.io/ix-web/semana7/',
+    name: 'Semana 7 de Desarrollo Aplicaciones Web',
+    client: 'Ing. Suasnabar',
+    date: '15/05/23',
+    description:
+      'Marcos de trabajo con React y Next.js para la creación de una página que muestra por defecto en varios proyectos.'
+  },
+  {
+    source: Job5,
     href: 'https://tiquor.github.io/plant-ds',
     name: 'Plant DS',
     client: 'UL Org.',
@@ -26,7 +76,7 @@ const jobs: JobItem[] = [
       'PlantDS es un proyecto colaborativo de código abierto bajo licencia Apache 2.0 que tiene como objetivo la implementación de redes neuronales convolucionales en una aplicación web moderna con React y su utilización en nuestro país en donde se sufre una gran cantidad de perdidas en cultivos debido a enfermedades que afectan a este. Para poder aportar puede ir a nuestro GitHub, y poder sugerir u aportar cambios que guste a este proyecto y otros similares.'
   },
   {
-    source: Job1,
+    source: Job6,
     href: 'https://tiquor.github.io/graph-dijkstra',
     name: 'Graph Dijsktra',
     client: 'UL Org.',
@@ -35,7 +85,7 @@ const jobs: JobItem[] = [
       'Pequeño proyecto para implementar el algoritmo de dijkstra con JavaScript y React para la interfaz y con el motor de react-force-graph.'
   },
   {
-    source: Job2,
+    source: Job7,
     href: 'https://bicimexfisnavi.herokuapp.com',
     name: 'E-Bicimex',
     client: 'Bicimex',
