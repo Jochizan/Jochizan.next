@@ -1,0 +1,6 @@
+export * from './About'
+export * from './Home'
+export * from './Contact'
+export * from './Portfolio'
+export * from './Services'
+// export * from './NotFound'

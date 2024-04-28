@@ -1,10 +1,10 @@
-import Service from '../components/Service';
-import ImgServiceOne from '../assets/icons/service-code.svg';
-import ImgServiceTwo from '../assets/icons/service-design.svg';
-import ImgServiceThree from '../assets/icons/service-wpo.svg';
-import ImgServiceFour from '../assets/icons/service-seo.svg';
-import ImgServiceFive from '../assets/icons/service-smo.svg';
-import ImgServiceSix from '../assets/icons/service-hosting.svg';
+import Service from '../Service';
+import ImgServiceOne from '@assets/icons/service-code.svg';
+import ImgServiceTwo from '@assets/icons/service-design.svg';
+import ImgServiceThree from '@assets/icons/service-wpo.svg';
+import ImgServiceFour from '@assets/icons/service-seo.svg';
+import ImgServiceFive from '@assets/icons/service-smo.svg';
+import ImgServiceSix from '@assets/icons/service-hosting.svg';
 
 interface ServiceItem {
   img: string;

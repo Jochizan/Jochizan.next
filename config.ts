@@ -1,4 +1,4 @@
-import heroImage from 'assets/hero-image.png';
+import heroImage from '@assets/hero-image.png';
 
 export const SEO = {
   description:

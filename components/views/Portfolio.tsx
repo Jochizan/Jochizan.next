@@ -1,15 +1,17 @@
-import Job0 from '../assets/projects/semana3.png';
-import Job1 from '../assets/projects/semana4.png';
-import Job2 from '../assets/projects/semana5.png';
-import Job3 from '../assets/projects/semana6.png';
-import Job4 from '../assets/projects/semana7.png';
-import Job5 from '../assets/projects/plant-ds.png';
-import Job6 from '../assets/projects/graph-dijkstra.png';
-import Job7 from '../assets/projects/bicimex.png';
+'use client';
 
-import Job from '../components/Job';
+import Job0 from '@assets/projects/semana3.png';
+import Job1 from '@assets/projects/semana4.png';
+import Job2 from '@assets/projects/semana5.png';
+import Job3 from '@assets/projects/semana6.png';
+import Job4 from '@assets/projects/semana7.png';
+import Job5 from '@assets/projects/plant-ds.png';
+import Job6 from '@assets/projects/graph-dijkstra.png';
+import Job7 from '@assets/projects/bicimex.png';
+
+import Job from '../Job';
 import { SyntheticEvent, useRef, useState } from 'react';
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 
 interface JobItem {
   description: string;

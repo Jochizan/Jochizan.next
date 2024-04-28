@@ -1,20 +1,21 @@
-import Techc from 'components/Tech';
-import jochizan from 'assets/jochizan.png';
-import html from 'assets/icons/html.svg';
-import css from 'assets/icons/css.svg';
-import js from 'assets/icons/javascript.svg';
-import ts from 'assets/icons/typescript.svg';
-import php from 'assets/icons/php.svg';
-import python from 'assets/icons/python.svg';
-import react from 'assets/icons/react.svg';
-import express from 'assets/icons/express.svg';
-import vue from 'assets/icons/vue.svg';
-import next from 'assets/icons/next.svg';
-import tf from 'assets/icons/tensorflow.svg';
-import docker from 'assets/icons/docker.svg';
-import mysql from 'assets/icons/mysql.svg';
-import mongo from 'assets/icons/mongodb.svg';
+import Techc from '../Tech';
+import jochizan from '@assets/jochizan.png';
+import html from '@assets/icons/html.svg';
+import css from '@assets/icons/css.svg';
+import js from '@assets/icons/javascript.svg';
+import ts from '@assets/icons/typescript.svg';
+import php from '@assets/icons/php.svg';
+import python from '@assets/icons/python.svg';
+import react from '@assets/icons/react.svg';
+import express from '@assets/icons/express.svg';
+import vue from '@assets/icons/vue.svg';
+import next from '@assets/icons/next.svg';
+import tf from '@assets/icons/tensorflow.svg';
+import docker from '@assets/icons/docker.svg';
+import mysql from '@assets/icons/mysql.svg';
+import mongo from '@assets/icons/mongodb.svg';
 import Image from 'next/image';
+
 interface Tech {
   name: string;
   image: string;

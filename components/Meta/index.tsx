@@ -1,5 +1,7 @@
+'use client';
+
 import Head from 'next/head';
-import { SEO } from 'config';
+import { SEO } from '../../config';
 
 const Meta = ({ title }: { title: string }) => (
   <Head>

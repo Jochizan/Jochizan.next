@@ -1,6 +1,6 @@
 import { memo } from 'react';
-import Header from 'layouts/Header';
-import heroImage from 'assets/hero-image.png';
+import heroImage from '@assets/hero-image.png';
+import Header from '../layouts/Header';
 
 const Home = () => {
   return (

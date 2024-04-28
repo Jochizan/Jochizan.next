@@ -1,12 +1,14 @@
-import email from '../assets/icons/contact-email.svg';
-import home from '../assets/icons/contact-location.svg';
-import phone from '../assets/icons/contact-phone.svg';
-import media from '../assets/icons/service-smo.svg';
+'use client';
 
-import loader from '../assets/icons/loader.svg';
-import happy from '../assets/icons/happy-face.svg';
+import email from '@assets/icons/contact-email.svg';
+import home from '@assets/icons/contact-location.svg';
+import phone from '@assets/icons/contact-phone.svg';
+import media from '@assets/icons/service-smo.svg';
 
-import ContactCard from '../components/Contact';
+import loader from '@assets/icons/loader.svg';
+import happy from '@assets/icons/happy-face.svg';
+
+import ContactCard from '../Contact';
 import { SyntheticEvent, useRef, useState } from 'react';
 import Image from 'next/image';
 
