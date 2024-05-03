@@ -3,7 +3,7 @@ import Image from 'next/image';
 const Service = ({ img, name, description }: any) => {
   return (
     <article className='service-card'>
-      <Image src={img} alt={name} />
+      <Image className='min-w-[60px] text-center' src={img} alt={name} />
       <h3>{name}</h3>
       <p dangerouslySetInnerHTML={{ __html: description }} />
       <style jsx>{`
@@ -11,6 +11,9 @@ const Service = ({ img, name, description }: any) => {
           margin: 1rem auto;
           padding: 1rem;
           text-align: center;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
         }
 
         .service-card img {

@@ -1,6 +1,6 @@
 'use client';
 
-import Job0 from '@assets/projects/semana3.png';
+// import Job0 from '@assets/projects/semana3.png';
 import Job1 from '@assets/projects/semana4.png';
 import Job2 from '@assets/projects/semana5.png';
 import Job3 from '@assets/projects/semana6.png';
@@ -8,6 +8,8 @@ import Job4 from '@assets/projects/semana7.png';
 import Job5 from '@assets/projects/plant-ds.png';
 import Job6 from '@assets/projects/graph-dijkstra.png';
 import Job7 from '@assets/projects/bicimex.png';
+import Job8 from '@assets/projects/ricor.png';
+import Job9 from '@assets/projects/sinergy.png';
 
 import Job from '../Job';
 import { SyntheticEvent, useRef, useState } from 'react';
@@ -24,13 +26,22 @@ interface JobItem {
 
 const jobs: JobItem[] = [
   {
-    source: Job0,
-    href: 'https://jochizan.github.io/ix-web/semana3/',
+    source: Job9,
+    href: 'https://synergy-mky.vercel.app',
+    name: 'Sinergy MKY',
+    client: 'Ing. Suasnabar',
+    date: '23/04/24',
+    description:
+      'El sistema te permite gestionar tus ventas, compras, inventario, clientes y proveedores de manera eficiente y sencilla.'
+  },
+  {
+    source: Job8,
+    href: 'https://ricor.vercel.app/',
     name: 'Semana 3 de Desarrollo Aplicaciones Web',
     client: 'Ing. Suasnabar',
-    date: '18/04/23',
+    date: '20/07/23',
     description:
-      'Se realizaron pruebas con emmet para la creación de la estructura de varios ejercicios propuestos.'
+      'Restaurante Ricor para comer y beber en la incontrastable Huancayo, con una carta de comida y bebida de primera calidad.'
   },
   {
     source: Job1,
@@ -104,7 +115,7 @@ const Portfolio = () => {
     name: '',
     date: '',
     client: '',
-    source: Job0,
+    source: Job1,
     description: ''
   });
 
